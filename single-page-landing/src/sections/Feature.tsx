@@ -1,5 +1,5 @@
 import { Element } from "react-scroll"
-import Button from "./Button";
+import Button from "../components/Button.tsx";
 import { details, features } from "../constants/index.tsx"
 
 export default function Feature() {

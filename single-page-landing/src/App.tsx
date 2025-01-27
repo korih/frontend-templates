@@ -1,6 +1,11 @@
-import Feature from "./components/Feature"
-import Header from "./components/Header"
-import Hero from "./components/Hero"
+import Download from "./sections/Download"
+import Faq from "./sections/Faq"
+import Feature from "./sections/Feature"
+import Footer from "./sections/Footer"
+import Header from "./sections/Header"
+import Hero from "./sections/Hero"
+import Pricing from "./sections/Pricing"
+import Testimonials from "./sections/Testimonials"
 
 function App() {
   return (
@@ -8,6 +13,11 @@ function App() {
       <Header />
       <Hero />
       <Feature />
+      <Pricing />
+      <Faq />
+      <Testimonials />
+      <Download />
+      <Footer />
     </main>
   )
 }
